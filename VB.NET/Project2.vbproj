@@ -1,0 +1,82 @@
+<VisualStudioProject>
+    <VisualBasic>
+        <Build>
+            <Settings
+                AssemblyName = "Project2"
+                OutputType = "WinExe"
+                StartupObject = "Project2.Form1"
+                AssemblyMajorVersion = "1"
+                AssemblyMinorVersion = "0"
+                AssemblyRevisionNumber = "0"
+                GenerateRevisionNumber = "False"
+                AssemblyCompanyName = "Resolution Systems (Pty) Ltd"
+            >
+                <Config
+                    Name = "Debug"
+                    DebugSymbols = "True"
+                    DefineDebug = "True"
+                    DefineTrace = "True"
+                    OutputPath = ".\bin\Debug\"
+                    DefineConstants = "Win32 = True"
+                />
+                <Config
+                    Name = "Release"
+                    DebugSymbols = "False"
+                    DefineDebug = "False"
+                    DefineTrace = "False"
+                    OutputPath = ".\bin\Release\"
+                    DefineConstants = "Win32 = True"
+                />
+            </Settings>
+            <References>
+                <Reference Name = "System" />
+                <Reference Name = "System.Drawing" />
+                <Reference Name = "System.WinForms" />
+                <Reference Name = "System.WinForms.Design" />
+                <Reference Name = "System.Data" />
+                <Reference Name = "System.Web.Services" />
+                <Reference Name = "System.Configuration" />
+                <Reference Name = "System.Diagnostics" />
+                <Reference Name = "Microsoft.Win32.Interop" />
+                <Reference Name = "Microsoft.VisualBasic.Compatibility" />
+                <Reference Name = "System.XML.Serialization" />
+                <Reference
+                    Name = "XMLTree"
+                    Guid = "{FCD3D0D1-F12F-4227-A019-C26C2677D4FD}"
+                    Lcid = "0"
+                    VersionMajor = "1"
+                    VersionMinor = "0"
+                />
+                <Reference Name = "AxMSComctlLib" />
+                <Reference Name = "AxMSComDlg" />
+                <Reference Name = "MSComctlLib" />
+                <Reference Name = "MSComDlg" />
+                <Reference Name = "stdole" />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "Microsoft.VisualBasic.Compatibility" />
+                <Import Namespace = "System" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "Form1.vb"
+                    BuildAction = "Compile"
+                    SubType = "Form"
+                />
+                <File
+                    RelPath = "Form1.resX"
+                    DependentUpon = "Form1.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "_UpgradeReport.htm"
+                    BuildAction = "None"
+                    SubType = "Preview"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
